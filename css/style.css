@@ -1,0 +1,38 @@
+body {
+	height: 100%;
+	margin-top: 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	
+}
+
+.weather {
+    text-transform:capitalize;
+}
+
+.icon-tempo {
+	font-size: 80px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#temperature-painel {
+	font-size: 40px;
+}
+
+.information-panel {
+	background-color: rgba(255,255,255, 0.9);
+	border-radius: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
