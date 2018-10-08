@@ -7,7 +7,7 @@ $(document).ready(function() {
         navigator.geolocation.getCurrentPosition(function(position) {
             
             // Recebendo JSON da API
-            $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+position.coords.latitude+"&lon="+position.coords.longitude+"&APPID=e0902187073afcf6d66c0807936aa1fa",function(json){
+            $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat="+position.coords.latitude+"&lon="+position.coords.longitude+"&APPID=e0902187073afcf6d66c0807936aa1fa",function(json){
                 
                 // Convertendo JSON para string
                 var jsonWeather = JSON.stringify(json);
@@ -65,10 +65,10 @@ $(document).ready(function() {
                         $("body").css("background-image","url(\"https://wallpaperscraft.com/image/lightning_elements_coast_night_stars_clouds_clearly_sky_48426_1920x1080.jpg\")");
                     break;
                     case "Drizzle":
-                        $("body").css("background-image","url(\"https://www.walldevil.com/wallpapers/a78/spring-rain-background-desktop-wallpapers.jpg\")");
+                        $("body").css("background-image","url(\"http://getwallpapers.com/wallpaper/full/0/c/6/329493.jpg\")");
                     break;
                     case "Rain":
-                        $("body").css("background-image","url(\"https://www.walldevil.com/wallpapers/a78/spring-rain-background-desktop-wallpapers.jpg\")");
+                        $("body").css("background-image","url(\"http://getwallpapers.com/wallpaper/full/0/c/6/329493.jpg\")");
                     break;
                     case "Snow":
                         $("body").css("background-image","url(\"http://www.wallpapers4u.org/wp-content/uploads/snow_surface_flakes_black_white_2897_1920x1080.jpg\")");
